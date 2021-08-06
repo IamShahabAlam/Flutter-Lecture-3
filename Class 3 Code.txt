@@ -1,0 +1,155 @@
+void main() 
+{
+  print("class 3");
+  // KEYWORD NAME = VALUE ;
+  // ; is terminator
+  // print ("") for any string
+  // print() for var
+  // print (" ${}") for string and var together
+  
+//   var n = "Hello World";
+//   int a=1;
+//   double b=2.2;
+//   num c=4.5;
+//   num d=5;
+//   print(n);
+//   print("var can be string, num , int ");
+//   print("always in inverted commas");
+//   print(a);
+//   print("int for digits with out decimal point");
+//   print(b);
+//   print("double only use for float");
+//   print(c);
+//   print(d);
+//   print("num can be used for both int and float ");
+
+//   String e="Shahab CSC-18F-025 6A";
+//   print(e);
+//   print("S must be capital for String keyword");
+//   print("Stirng for sentence, numbers, float, special characters");
+//   print("String will not perform arithematic operations");
+
+//   int num1=5;
+//   int num2=8;
+
+//   bool check = num1>num2;
+//   // checking is 5>8
+//   print(check);
+//     // checking is 5<8
+//   bool check2 = num2>num1;
+//   print(check2);
+//   print("bool stands for boolean");
+//   print("bool check keyword tests condition whether is it true or false");
+///////////////////////////////////////////////////////////////////////////////
+//     print("The Arithematic Operations");
+//     int num1 = 8;
+//     int num2 = 5;
+//     int sum = num1 + num2;
+//     int sub = num1 - num2;
+//     int mul = num1 * num2;
+//     double div = num1 / num2;
+//     int div_int = num1 ~/ num2;
+//     int div_rem = num1 % num2;
+
+//     // + , - , * , / operator
+//     // division works with ~/ when int
+//   //  division works perfect with double keyword because it may contain decimal
+
+//   print(sum);
+//   print(sub);
+//   print(mul);
+//   print(div);
+
+//   // concatenation
+//   // its works with in inverted commas as ${}
+//   // give the var in the curly bracket
+//   // print (" ${}") for string and var together
+//   // division to get the reminder use % operator
+
+//   print("The sum of given numbers is ${sum}");
+//   print("The substraction of the given numbers is ${sub}");
+//   print("The Multiplication of the given numbers is ${mul}");
+//   print("The Division of the given numbers with double is ${div}");
+//   print("The Division of the given numbers with int is ${div_int}");
+//   print("The remainder Division of the given numbers is ${div_rem}");
+///////////////////////////////////////////////////////////////////////////////
+//   print("Increment and Decrement");
+
+// //   Compilation is when whole code translated in one step
+// //   Interpretation is line by line left to right translation
+// //   Assembler is the translation of Assembly language
+
+//   print("Post Increment");
+//   int x= 5;
+//   int y= x++;
+//   print(y);
+//   print("Pre Increment");
+//   int a = 5;
+//   int b = ++a;
+//   print(b);
+///////////////////////////////////////////////////////////////////////
+//   print("Post decrement");
+//   int x= 5;
+//   int y= x--;
+//   print(y);
+//   print("Pre decrement");
+//   int a = 5;
+//   int b = --a;
+//   print(b);
+///////////////////////////////////////////////////////////////////////
+//   int f=3;
+//   int g= f++ + --f - f + f++ - f-- + ++f;
+//       // 3   +  2  - 3 + 3   _  3  +  4
+
+//   print(g);
+///////////////////////////////////////////////////////////////////////
+//   int age =20;
+//   bool check= age >= 18;
+//   print(check);
+///////////////////////////////////////////////////////////////////////
+//   int age =20;
+//   bool check = age == 2;
+//   print(check);
+//   // use == for checking equality
+  
+/////////////////////////////////////////////////////////////////////
+  
+//   print("LOGICAL OPERATORS");
+
+// //   int a = 4;
+// //   int b = 6;
+// //   bool status = a>2 && b<8;
+// //   print (status);
+//   // && means all conditions should be ture
+//   // || any one contion must be ture
+//   // ! shows opposite results
+
+//   int abc = 4;
+//   bool status = !(abc>2);
+//   print (status);
+/////////////////////////////////////////////////////////////////////
+//   print("Conditional Statement");
+//   // if else
+//   // using var because it contains everything
+
+// //   var a ="SHAHAB";
+// //     var b = "ALI";
+// //   if (a==b){
+// //     print("A is EQUAL to B");
+// //   }
+// //    else{
+// //      print(" A is not equal B");
+// //   }
+// //////////////////////////////////////////////////////////////////////
+//   var a = 10;
+//   var b = 15;
+//   if (a == b) {
+//     print("A is EQUAL to B");
+//   } else if (a > b) {
+//     print(" A is greater than B");
+//   } else if (a < b) {
+//     print(" A is less than B");
+//   } else {
+//     print("Syntax Error");
+//   }
+}
